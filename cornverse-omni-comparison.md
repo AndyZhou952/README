@@ -496,12 +496,6 @@ max_batch_size = int(runtime_cfg.get("max_batch_size", 1) or 1)
 # 实现：vllm-omni的Stage间通信使用Sidecar（可选）
 ```
 
-**方案C：统一配置接口**
-```python
-# 两者都支持YAML配置
-# 可以定义统一的Stage配置格式
-# 优势：用户可以在两个框架间迁移
-```
 
 ### 七、总结
 
